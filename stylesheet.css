@@ -4,22 +4,22 @@
     justify-content: center;
 }
 
-.flex-container.column{
+.flex-container.bottom-header-column{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
 }
 
-.flex-container h2, .flex-container p, .flex-container button{
+.flex-container.bottom-header-column h2, .flex-container.flex-container.bottom-header-column p, .flex-container.flex-container.bottom-header-column button{
     flex: 0 1 auto;
 }
 
-.flex-container h4{
+.flex-container.top-header h4{
     flex: 2 1 auto;
 }
 
-.flex-container h5{
+.flex-container.top-header-links h5{
     flex: 1 1 auto;
 }
 
@@ -78,4 +78,5 @@
 
 button{
     border-radius: 30px;
+    padding: 10px;
 }
