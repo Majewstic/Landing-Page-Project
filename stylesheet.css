@@ -1,6 +1,5 @@
 .flex-container{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -28,6 +27,39 @@
     height: auto
 } 
 
+.flex-container.body1-images div, .flex-container.body1-images p{
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.flex-container.meme {
+    flex-direction: column;
+}
+
+.body1-images{
+    margin: 0 25vw;
+    gap: 1em;
+}
+
+.adjust-body1-header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.meme p{
+    width: 100px;
+    margin: 0;
+}
+
+.meme img{
+    width: 100px;
+    height: 100px;
+    border: 3.5px solid blue;
+    border-radius: 10px;
+}
+
 .top-header{
     margin-bottom: 50px;
     margin-left: 10vw;
@@ -43,10 +75,11 @@
 }
 
 .header{
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 4em;
 }
 
 .white-text{
@@ -79,4 +112,30 @@
 button{
     border-radius: 30px;
     padding: 10px;
+}
+
+.full-body.flex-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.full-body.flexcontainer > div{
+    flex: 1 1 0;
+}
+
+.body1 > div {
+    padding-bottom: 4em;
+}
+
+.body2 p, .body2 h6{
+    margin: 0 25vw;
+}
+
+.body2 h6{
+    text-align: right;
+}
+
+.body2{
+    background-color: #E5E7EB;
 }
