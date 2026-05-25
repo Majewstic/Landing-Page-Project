@@ -134,8 +134,28 @@ button{
 
 .body2 h6{
     text-align: right;
+    font-size: 14px;
+}
+
+.body2 p{
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: italic;
 }
 
 .body2{
     background-color: #E5E7EB;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.flex-container.footer-call-to-action{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-container button.footer-button{
+    background-color: #3882F6;
+    flex: 0 1 0;
 }
